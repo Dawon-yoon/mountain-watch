@@ -1,0 +1,209 @@
+@import "./reset.css";
+:root{
+    --main: #B8E1EE;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+* a{
+    text-decoration: none;
+    color: unset;
+}
+
+body{
+    height: 200vh;
+    background-color: #04120c;
+}
+
+p,h5{
+    color: var(--main);
+}
+
+header{
+    display: flex;
+    background-color: #04120C;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+header a{
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--main);
+}
+header a:hover{
+    background-color: #127374;
+}
+
+#active-menu{
+    background-color: #013A38;
+}
+#image-wrapper{
+    overflow: hidden;
+}
+
+#main-image{
+    min-width: 1000px;
+}
+main{
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#payment{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.content-wrapper{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.content-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.content-btn{
+    background-color: var(--main);
+    color: #04120c;
+    font-weight: 700;
+    font-size: 18px;
+    width: 325px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: auto;
+}
+.content-btn i{
+    margin-right: 8px;
+}
+.content-btn:hover{
+    cursor: pointer;
+    background-color: azure;
+    transition: all 0.3s ease;
+}
+
+iframe{
+    margin: 70px;
+}
+.text-area{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text-area__LR{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.text-area__LR p{
+    width: 50%;
+    font-size: 23px;
+    line-height: 2em;
+    font-weight: 300;
+
+}
+
+.text-area-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-screenshots-grid{
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(2);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.game-image-1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.game-image-2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.game-image-3{
+    grid-area: 2 / 1 / 3 / 2;
+    }
+.game-image-4{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.catchprize{
+    text-align: center;
+}
+h6{
+    color: #023A3A;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.tree-icon,.gh-icon{
+    color: #127374;
+    font-size: 50px;
+}
+
+.supportbtn-area{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.japanese-content{
+    display: flex;
+    justify-content: center;
+}
+.japanese-info{
+    color: var(--main);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.japanese-info:hover{
+    cursor: pointer;
+    color: #013A38;
+    transition: all 0.2s ease-in-out;
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.copyright{
+    color: #023A3A;
+
+}
+.gh-icon-area{
+    margin-bottom: 80px;}
+
+.gh-icon:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
